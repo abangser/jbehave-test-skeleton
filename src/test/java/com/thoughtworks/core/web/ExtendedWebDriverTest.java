@@ -3,12 +3,12 @@ package com.thoughtworks.core.web;
 import com.thoughtworks.core.utils.DisplayFriendlyNoSuchElementException;
 import com.thoughtworks.core.utils.ExtendedWebElement;
 import org.junit.Before;
-import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.annotations.Test;
 
 import static org.hamcrest.Matchers.nullValue;
 import static org.hamcrest.core.Is.is;
